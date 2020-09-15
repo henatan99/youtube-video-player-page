@@ -13,6 +13,33 @@
 .header, .profile {
     display: flex;
 }
+.logo, .profile{
+    width: 20%;
+}
+.search{
+    width: 60%;
+    margin: 0 80px;
+    text-align: center;
+}
+.search-input{
+    width: 80%;
+    padding: 8px 10px;
+    border: 1px solid #afaeae;
+    border-radius: 5px;
+}
+
+.header{
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.profile-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+
 
 
 
