@@ -6,20 +6,21 @@
     <title>Youtube's Video Player page</title>
 
     <link rel="stylesheet" href="./styles/css-reset.css">
+    <link rel="stylesheet" href="styles/style.css">
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
     <!-- header section -->
-    <header>
-        <section>
+    <header class="header">
+        <section class="logo header-item">            
             <figure>
-                <span class="iconify" data-icon="ant-design:youtube-filled" data-inline="false"></span>
-                <span class="logo-title">YOUTUBE</span>
+                <span class="iconify youtube-icon" data-icon="ant-design:youtube-filled" data-inline="false"></span>
+                <span class="youtube-text">YOUTUBE</span>
             </figure>
-        </section>
+        </section >
 
-        <section>
+        <section class="search header-item">
             <form action="">
                 <input type="text" placeholder="Search ...">
                 <button>
@@ -28,7 +29,7 @@
             </form>
         </section>
 
-        <section>
+        <section class="profile header-item">
             <figure>
                 <span class="iconify" data-icon="bx:bxs-video-plus" data-inline="false"></span>
             </figure>
