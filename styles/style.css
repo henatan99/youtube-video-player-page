@@ -16,15 +16,14 @@ body{
     display: flex; 
     justify-content: space-between;   
     align-items: center; 
-    padding: 5px 10px;
+    padding: 5px 50px;
     background-color: #ffffff;
 }
 
 .menu{
-    width: 5%;
-    padding-top: 5px;    
+    width: 2%;
+    padding-top: 5px; 
 }
-
 
 .logo {
     width: 15%;   
@@ -44,11 +43,22 @@ body{
     margin: 0 80px;
     text-align: center;
 }
+.search-form{
+    position: relative;
+}
 .search-input{
-    width: 80%;
+    width: 90%;
     padding: 8px 10px;
     border: 1px solid #afaeae;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
+}
+.search-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 30px;
+    border: 1px solid #8e8888;
 }
 
 
