@@ -6,41 +6,33 @@
     padding: 0;
 }
 
+body{
+    background-color: #f3f3f3;
+}
+
 /*header*/
-
-.youtube-icon {
-    color: red;
-    font-size: 20px;   
-    line-height: 5px;
-}
-
-.youtube-text {
-    font-family: sans-serif;
-    
-    line-height: 10px;
-}
 
 .header {
     display: flex;
+    background-color: #ffffff;
 }
-
+.menu{
+    width: 5%;
+}
 .logo {
     width: 15%;    
 }
-
-.logo figure {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
+.youtube-logo{
+    max-width: 90%;
 }
 
 .profile{
     width: 20%;
+    text-align: right;
 }
 
-
 .search{
-    width: 40%;
+    width: 60%;
     margin: 0 80px;
     text-align: center;
 }
@@ -53,7 +45,6 @@
 
 .header{
     justify-content: space-between;
-    width: 100%;
     padding: 20px 10px;
 }
 
@@ -61,12 +52,17 @@
     height: 40px;
     width: 40px;
     border-radius: 100px;
-    
-
 }
 
 .profile figure {
     display: inline-block;
+    padding: 0 8px;
+}
+
+.profile figure .iconify{
+    font-size: 30px;
+    color: #7b7575;
+    margin-bottom: 7.5px;
 }
 
 
