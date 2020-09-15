@@ -13,17 +13,25 @@ body{
 /*header*/
 
 .header {
-    display: flex;
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center; 
+    padding: 5px 10px;
     background-color: #ffffff;
 }
+
 .menu{
     width: 5%;
+    padding-top: 5px;    
 }
+
+
 .logo {
-    width: 15%;    
+    width: 15%;   
+    padding-bottom: 10px;  
 }
-.youtube-logo{
-    max-width: 90%;
+.youtube-logo{    
+    height: 50px;    
 }
 
 .profile{
@@ -43,10 +51,7 @@ body{
     border-radius: 5px;
 }
 
-.header{
-    justify-content: space-between;
-    padding: 20px 10px;
-}
+
 
 .profile-img img{
     height: 40px;
@@ -59,8 +64,8 @@ body{
     padding: 0 8px;
 }
 
-.profile figure .iconify{
-    font-size: 30px;
+.profile figure .iconify, .menu .iconify{
+    font-size: 25px;
     color: #7b7575;
     margin-bottom: 7.5px;
 }
