@@ -9,9 +9,11 @@
 body{
     background-color: #f3f3f3;
 }
+.light-gray{
+    color: #7b7575;
+}
 
 /*header*/
-
 .header {
     display: flex; 
     justify-content: space-between;   
@@ -61,8 +63,6 @@ body{
     border: 1px solid #8e8888;
 }
 
-
-
 .profile-img img{
     height: 40px;
     width: 40px;
@@ -76,14 +76,19 @@ body{
 
 .profile figure .iconify, .menu .iconify{
     font-size: 25px;
-    color: #7b7575;
     margin-bottom: 7.5px;
 }
 
 
-
 /*video Section*/
-
+.main-video-wrapper{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#main-youtube-video{
+    width: 60%;
+    height: 500px;
+}
 
 
 /*Recommended Video*/
