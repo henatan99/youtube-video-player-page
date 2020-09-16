@@ -11,6 +11,9 @@ The features of this project are listed as below:
 2. Search input for searching a video.
 3. Provides a list of recommended videos.
 4. Display a avatar of user who uploaded the video.
+5. Has subscribe, like, dislike, share, save  button
+6. Has description of video content 
+7. Has profile image of logged-in user 
 
 ## Built With
 
@@ -27,7 +30,7 @@ The features of this project are listed as below:
 **Just clone this repo and open index.html file in your browser then you are good to go.**
 
 
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
 
 ### clone the repo.
 
