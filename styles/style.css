@@ -202,13 +202,28 @@ body{
 }
 .thumbnail-wrapper{
     display: flex;
-    padding: 0 30px;
+    padding: 5px 30px;
+
 }
 .thumbnail-wrapper figure{
     width: 40%;
 }
+
 .thumbnail-img{
     width: 100%;
+}
+
+.thumbnail-wrapper figcaption {
+    padding-left: 8px;
+}
+
+.thumbnail-title {
+    font-weight: bold;
+}
+
+.channel-name, .thumbnail-views-date {
+    padding-top: 5px;
+    font-weight: normal;
 }
 
 /*footer*/
