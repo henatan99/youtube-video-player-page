@@ -82,6 +82,7 @@ body{
 #main-youtube-video{
     width: 100%;
     height: 500px;
+    border: none;
 }
 .video-info, .views-date {
     margin-top: 10px;
