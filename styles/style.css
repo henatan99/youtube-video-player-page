@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: #f3f3f3;
     font-family: sans-serif;
@@ -13,8 +12,6 @@ body{
 .light-gray{
     color: #7b7575;
 }
-
-
 
 /*header*/
 .header {
@@ -24,12 +21,10 @@ body{
     padding: 5px 50px;
     background-color: #ffffff;
 }
-
 .menu{
     width: 2%;
     padding-top: 5px; 
 }
-
 .logo {
     width: 15%;   
     padding-bottom: 10px;  
@@ -37,12 +32,6 @@ body{
 .youtube-logo{    
     height: 50px;    
 }
-
-.profile{
-    width: 20%;
-    text-align: right;
-}
-
 .search{
     width: 60%;
     margin: 0 80px;
@@ -65,23 +54,23 @@ body{
     padding: 0 30px;
     border: 1px solid #8e8888;
 }
-
+.profile{
+    width: 20%;
+    text-align: right;
+}
 .profile-img img{
     height: 40px;
     width: 40px;
     border-radius: 100px;
 }
-
 .profile figure {
     display: inline-block;
     padding: 0 8px;
 }
-
 .profile figure .iconify, .menu .iconify{
     font-size: 25px;
     margin-bottom: 7.5px;
 }
-
 
 /*video Section*/
 .main-video-wrapper{
@@ -94,7 +83,12 @@ body{
     width: 100%;
     height: 500px;
 }
-
+.video-info, .views-date {
+    margin-top: 10px;
+}
+.video-title, .views-date {
+    font-weight: normal;    
+}
 .video-icons{
     display: flex;
     float: right;
@@ -111,11 +105,9 @@ body{
     position: absolute;
     bottom: 3px;
 }
-
 .underline {
     position: relative;
 }
-
 .underline::before{
     content: "";
     width: 100%;
@@ -124,42 +116,31 @@ body{
     position: absolute;
     bottom: 3px;
 }
-
 .video-icons figure {
     display: flex;
     padding: 8px;
     justify-content: space-between;
 }
-
 .icon-wrapper figcaption {
     padding-left: 5px;
     font-size: 12px;
 }
-
-.video-info, .views-date {
-    margin-top: 10px;
+.avatar-wrapper {
+    width: 70%;
+    float: left;
 }
-
-.video-title, .views-date {
-    font-weight: normal;    
-}
-
-
 .avatar {
     display: flex;    
     width: 100%;
     margin-top: 5px;      
     padding-top: 10px;   
 }
-
-
 .avatar img{
     height: 50px;
     width: 50px;
     border-radius: 100px;
     padding-right: 10px;
 }
-
 .subscribe-wrapper {
     width: 20%;
     float: right;
@@ -167,7 +148,6 @@ body{
     padding-top: 10px;  
     text-align: right;    
 }
-
 .subscribe-btn {
     background: #ff0000;
     color: #ffffff;
@@ -178,21 +158,13 @@ body{
     border: none;
     border-radius: 1px;
 }
-
-.avatar-wrapper {
-    width: 70%;
-    float: left;
+.avatar-name {
+    margin-bottom: 5px;
 }
-
 .description {
     font-size: 13px;
     margin-left: 60px;
 }
-
-.avatar-name {
-    margin-bottom: 5px;
-}
-
 
 /*Recommended Video*/
 .recommended-videos{
@@ -203,24 +175,19 @@ body{
 .thumbnail-wrapper{
     display: flex;
     padding: 5px 30px;
-
 }
 .thumbnail-wrapper figure{
     width: 40%;
 }
-
-.thumbnail-img{
-    width: 100%;
-}
-
 .thumbnail-wrapper figcaption {
     padding-left: 8px;
 }
-
+.thumbnail-img{
+    width: 100%;
+}
 .thumbnail-title {
     font-weight: bold;
 }
-
 .channel-name, .thumbnail-views-date {
     padding-top: 5px;
     font-weight: normal;
