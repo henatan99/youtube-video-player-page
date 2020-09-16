@@ -180,7 +180,7 @@ body{
 .thumbnail-wrapper figure{
     width: 40%;
 }
-.thumbnail-wrapper figcaption {
+.thumbnail-info {
     padding-left: 8px;
 }
 .thumbnail-img{
