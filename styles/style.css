@@ -144,6 +144,54 @@ body{
 }
 
 
+.avatar {
+    display: flex;    
+    width: 100%;
+    margin-top: 5px;      
+    padding-top: 10px;   
+}
+
+
+.avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding-right: 10px;
+}
+
+.subscribe-wrapper {
+    width: 20%;
+    float: right;
+    margin-top: 5px;      
+    padding-top: 10px;  
+    text-align: right;    
+}
+
+.subscribe-btn {
+    background: #ff0000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 1px;
+}
+
+.avatar-wrapper {
+    width: 70%;
+    float: left;
+}
+
+.description {
+    font-size: 13px;
+    margin-left: 60px;
+}
+
+.avatar-name {
+    margin-bottom: 5px;
+}
+
 
 /*Recommended Video*/
 
