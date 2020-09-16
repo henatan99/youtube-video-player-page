@@ -85,9 +85,10 @@ body{
 
 /*video Section*/
 .main-video-wrapper{
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 30px;
     width: 60%;
+    float: left;
 }
 #main-youtube-video{
     width: 100%;
@@ -194,6 +195,21 @@ body{
 
 
 /*Recommended Video*/
+.recommended-videos{
+    width: 35%;
+    float: left;
+    margin-top: 30px;
+}
+.thumbnail-wrapper{
+    display: flex;
+    padding: 0 30px;
+}
+.thumbnail-wrapper figure{
+    width: 40%;
+}
+.thumbnail-img{
+    width: 100%;
+}
 
 /*footer*/
 
