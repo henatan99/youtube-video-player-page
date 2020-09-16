@@ -95,9 +95,20 @@ body{
 }
 
 .video-icons{
-    display: flex;   
+    display: flex;
     float: right;
-    margin-top: -22px;
+    width: 100%;
+    margin-top: -15px;
+    justify-content: flex-end;
+    position: relative;
+}
+.video-icons:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #d2d1d1;
+    position: absolute;
+    bottom: 3px;
 }
 
 .video-icons figure {
