@@ -111,6 +111,19 @@ body{
     bottom: 3px;
 }
 
+.underline {
+    position: relative;
+}
+
+.underline::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: gray;
+    position: absolute;
+    bottom: 3px;
+}
+
 .video-icons figure {
     display: flex;
     padding: 8px;
