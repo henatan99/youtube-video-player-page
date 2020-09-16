@@ -8,10 +8,13 @@
 
 body{
     background-color: #f3f3f3;
+    font-family: sans-serif;
 }
 .light-gray{
     color: #7b7575;
 }
+
+
 
 /*header*/
 .header {
@@ -84,11 +87,38 @@ body{
 .main-video-wrapper{
     margin-left: 50px;
     margin-top: 30px;
+    width: 60%;
 }
 #main-youtube-video{
-    width: 60%;
+    width: 100%;
     height: 500px;
 }
+
+.video-icons{
+    display: flex;   
+    float: right;
+    margin-top: -22px;
+}
+
+.video-icons figure {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.icon-wrapper figcaption {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.video-info, .views-date {
+    margin-top: 10px;
+}
+
+.video-title, .views-date {
+    font-weight: normal;    
+}
+
 
 
 /*Recommended Video*/
