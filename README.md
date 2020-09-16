@@ -13,7 +13,8 @@ The features of this project are listed as below:
 4. Display a avatar of user who uploaded the video.
 5. Has subscribe, like, dislike, share, save  button
 6. Has description of video content 
-7. Has profile image of logged-in user 
+7. Provides profile image of logged-in user 
+
 
 ## Built With
 
