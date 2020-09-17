@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Youtube video player clone page.">
     <title>Youtube's Video Player page</title>
 
-    <link rel="stylesheet" href="./styles/css-reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/style.css">
 
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -28,7 +29,7 @@
         <div class="search header-item">
             <form action="#" class="search-form">
                 <input type="text" class="search-input" placeholder="Search ...">
-                <button class="search-button">
+                <button class="search-button" aria-label="Search here">
                     <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
                 </button>
             </form>
@@ -55,6 +56,7 @@
     <div class="main-video-wrapper">
         <section>
             <iframe
+                title="Introduction to Flexbox! - Tutorial 2 of 20"
                 id="main-youtube-video"
                 src="https://www.youtube.com/embed/ND8SjPJOk_M" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -111,7 +113,7 @@
                         nostrum sit quos sequi impedit?</p>
                 </section>  
                 <div class="subscribe-wrapper">
-                    <button class="subscribe-btn">Subscribe</button>
+                    <button class="subscribe-btn" aria-label="Subscribe">Subscribe</button>
                 </div>                
                 
             </div>    
