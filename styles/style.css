@@ -18,7 +18,7 @@ body{
     display: flex; 
     justify-content: space-between;   
     align-items: center; 
-    padding: 5px 50px;
+    padding: 5px 40px;
     background-color: #ffffff;
 }
 .menu{
@@ -30,7 +30,9 @@ body{
     padding-bottom: 10px;  
 }
 .youtube-logo{    
-    height: 50px;    
+    height: 48px;
+    margin-bottom: -8px;
+    margin-left: 10px;   
 }
 .search{
     width: 60%;
@@ -68,7 +70,7 @@ body{
     padding: 0 8px;
 }
 .profile figure .iconify, .menu .iconify{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 7.5px;
 }
 
@@ -119,7 +121,7 @@ body{
 }
 .video-icons figure {
     display: flex;
-    padding: 8px;
+    padding: 10px;
     justify-content: space-between;
 }
 .icon-wrapper figcaption {
@@ -134,7 +136,8 @@ body{
     display: flex;    
     width: 100%;
     margin-top: 5px;      
-    padding-top: 10px;   
+    padding-top: 10px;  
+    padding-top: 8px; 
 }
 .avatar img{
     height: 50px;
