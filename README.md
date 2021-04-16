@@ -7,13 +7,13 @@
 ![screenshot](./app_screenshot.png)
 
 The features of this project are listed as below:
-1. Have a video player where user can play video.
+1. Have a video player where users can play video.
 2. Search input for searching a video.
 3. Provides a list of recommended videos.
-4. Display a avatar of user who uploaded the video.
-5. Has subscribe, like, dislike, share, save  button
+4. Display an avatar of the user who uploaded the video.
+5. Has 'subscribe', 'like', 'dislike', 'share', 'save'  buttons
 6. Has description of video content 
-7. Has profile image of logged-in user 
+7. Has profile image of a logged-in user 
 
 ## Built With
 
@@ -27,7 +27,7 @@ The features of this project are listed as below:
 
 ## Getting Started
 
-**Just clone this repo and open index.html file in your browser then you are good to go.**
+**Just clone this repo and open the index.html file in your browser then you are good to go.**
 
 
 **To get a local copy up and running follow these simple example steps.**
