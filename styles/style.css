@@ -1,203 +1,239 @@
-/*typography*/
+/* typography */
 
-/*General Styles*/
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #f3f3f3;
-    font-family: sans-serif;
-}
-.light-gray{
-    color: #7b7575;
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*header*/
+body {
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+}
+
+.light-gray {
+  color: #7b7575;
+}
+
+/* header */
 .header {
-    display: flex; 
-    justify-content: space-between;   
-    align-items: center; 
-    padding: 5px 40px;
-    background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background-color: #fff;
 }
-.menu{
-    width: 2%;
-    padding-top: 5px; 
+
+.menu {
+  width: 2%;
+  padding-top: 5px;
 }
+
 .logo {
-    width: 15%;   
-    padding-bottom: 10px;  
+  width: 15%;
+  padding-bottom: 10px;
 }
-.youtube-logo{    
-    height: 48px;
-    margin-bottom: -8px;
-    margin-left: 10px;   
+
+.youtube-logo {
+  height: 48px;
+  margin-bottom: -8px;
+  margin-left: 10px;
 }
-.search{
-    width: 60%;
-    margin: 0 80px;
-    text-align: center;
+
+.search {
+  width: 60%;
+  margin: 0 80px;
+  text-align: center;
 }
-.search-form{
-    position: relative;
+
+.search-form {
+  position: relative;
 }
-.search-input{
-    width: 90%;
-    padding: 8px 10px;
-    border: 1px solid #afaeae;
-    border-radius: 5px 0 0 5px;
+
+.search-input {
+  width: 90%;
+  padding: 8px 10px;
+  border: 1px solid #afaeae;
+  border-radius: 5px 0 0 5px;
 }
-.search-button{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0 30px;
-    border: 1px solid #8e8888;
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 30px;
+  border: 1px solid #8e8888;
 }
-.profile{
-    width: 20%;
-    text-align: right;
+
+.profile {
+  width: 20%;
+  text-align: right;
 }
-.profile-img img{
-    height: 40px;
-    width: 40px;
-    border-radius: 100px;
+
+.profile-img img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
 }
+
 .profile figure {
-    display: inline-block;
-    padding: 0 8px;
-}
-.profile figure .iconify, .menu .iconify{
-    font-size: 20px;
-    margin-bottom: 7.5px;
+  display: inline-block;
+  padding: 0 8px;
 }
 
-/*video Section*/
-.main-video-wrapper{
-    padding-left: 50px;
-    margin-top: 30px;
-    width: 60%;
-    float: left;
+.menu .iconify,
+.profile figure .iconify {
+  font-size: 20px;
+  margin-bottom: 7.5px;
 }
-#main-youtube-video{
-    width: 100%;
-    height: 500px;
-    border: none;
+
+/* video Section */
+.main-video-wrapper {
+  padding-left: 50px;
+  margin-top: 30px;
+  width: 60%;
+  float: left;
 }
-.video-info, .views-date {
-    margin-top: 10px;
+
+#main-youtube-video {
+  width: 100%;
+  height: 500px;
+  border: none;
 }
-.video-title, .views-date {
-    font-weight: normal;    
+
+.video-info,
+.views-date {
+  margin-top: 10px;
 }
-.video-icons{
-    display: flex;
-    float: right;
-    width: 100%;
-    margin-top: -15px;
-    justify-content: flex-end;
-    position: relative;
+
+.video-title,
+.views-date {
+  font-weight: normal;
 }
-.video-icons:before{
-    content: "";
-    width: 100%;
-    height: 1px;
-    background: #d2d1d1;
-    position: absolute;
-    bottom: 3px;
+
+.video-icons {
+  display: flex;
+  float: right;
+  width: 100%;
+  margin-top: -15px;
+  justify-content: flex-end;
+  position: relative;
 }
+
+.video-icons::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #d2d1d1;
+  position: absolute;
+  bottom: 3px;
+}
+
 .underline {
-    position: relative;
+  position: relative;
 }
-.underline::before{
-    content: "";
-    width: 100%;
-    height: 2px;
-    background: gray;
-    position: absolute;
-    bottom: 3px;
+
+.underline::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: gray;
+  position: absolute;
+  bottom: 3px;
 }
+
 .video-icons figure {
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
+
 .icon-wrapper figcaption {
-    padding-left: 5px;
-    font-size: 12px;
+  padding-left: 5px;
+  font-size: 12px;
 }
+
 .avatar-wrapper {
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
+
 .avatar {
-    display: flex;    
-    width: 100%;
-    margin-top: 5px;      
-    padding-top: 10px;  
-    padding-top: 8px; 
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-top: 8px;
 }
-.avatar img{
-    height: 50px;
-    width: 50px;
-    border-radius: 100px;
-    padding-right: 10px;
+
+.avatar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  padding-right: 10px;
 }
+
 .subscribe-wrapper {
-    width: 20%;
-    float: right;
-    margin-top: 5px;      
-    padding-top: 10px;  
-    text-align: right;    
+  width: 20%;
+  float: right;
+  margin-top: 5px;
+  padding-top: 10px;
+  text-align: right;
 }
+
 .subscribe-btn {
-    background: #ff0000;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 10px 20px; 
-    border: none;
-    border-radius: 1px;
+  background: #f00;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1px;
 }
+
 .avatar-name {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
+
 .description {
-    font-size: 13px;
-    margin-left: 60px;
+  font-size: 13px;
+  margin-left: 60px;
 }
 
-/*Recommended Video*/
-.recommended-videos{
-    width: 35%;
-    float: left;
-    margin-top: 30px;
+/* Recommended Video */
+.recommended-videos {
+  width: 35%;
+  float: left;
+  margin-top: 30px;
 }
-.thumbnail-wrapper{
-    display: flex;
-    padding: 5px 30px;
+
+.thumbnail-wrapper {
+  display: flex;
+  padding: 5px 30px;
 }
-.thumbnail-wrapper figure{
-    width: 40%;
+
+.thumbnail-wrapper figure {
+  width: 40%;
 }
+
 .thumbnail-info {
-    padding-left: 8px;
+  padding-left: 8px;
 }
-.thumbnail-img{
-    width: 100%;
+
+.thumbnail-img {
+  width: 100%;
 }
+
 .thumbnail-title {
-    font-weight: bold;
-}
-.channel-name, .thumbnail-views-date {
-    padding-top: 5px;
-    font-weight: normal;
+  font-weight: bold;
 }
 
-/*footer*/
+.channel-name,
+.thumbnail-views-date {
+  padding-top: 5px;
+  font-weight: normal;
+}
 
-
-
+/* footer */
